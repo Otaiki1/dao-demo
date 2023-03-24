@@ -1,3 +1,7 @@
+import "@typechain/hardhat";
+import "hardhat-deploy";
+import "@nomiclabs/hardhat-ethers";
+
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity:{
