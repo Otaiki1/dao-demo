@@ -32,7 +32,7 @@ const deployGovernorContract: DeployFunction = async (
   });
 
   log(
-    "02--GOVERNOR CONTRACT DEPLOYED AT -----_______",
+    "03--GOVERNOR CONTRACT DEPLOYED AT -----_______",
     governorContract.address
   );
 };
