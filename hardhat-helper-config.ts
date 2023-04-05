@@ -7,3 +7,10 @@ export const EXECUTORS: string[] = [];
 export const PROPOSERS: string[] = [];
 
 export const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
+
+export const FUNC = "store";
+export const FUNC_ARG = 100;
+export const DESCRIPTION = "Proposal #1, Update Box's value to 100";
+
+export const developmentChains = ["hardhat", "localhost"];
+export const PROPOSAL_FILE = "proposals.json";
